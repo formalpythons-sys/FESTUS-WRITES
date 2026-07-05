@@ -76,9 +76,9 @@ export default function LoginPage() {
         <div className="flex flex-1 flex-col justify-between bg-blue-950 p-8 text-white sm:p-10 lg:p-12">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-400">Welcome back</p>
-            <h1 className="mt-4 text-3xl font-semibold sm:text-4xl">Sign in to your editorial workspace.</h1>
+            <h1 className="mt-4 text-3xl font-semibold sm:text-4xl">Sign in here.</h1>
             <p className="mt-4 max-w-md text-base leading-7 text-zinc-400">
-              Access your drafts, manage published pieces, and keep the publication moving.
+              Access frank insight into society, politics and theology.
             </p>
           </div>
           <div className="mt-8 rounded-2xl border border-white/10 bg-blue-900/50 p-4 text-sm text-zinc-300">
