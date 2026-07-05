@@ -78,10 +78,10 @@ export default function LoginPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-400">Welcome back</p>
             <h1 className="mt-4 text-3xl font-semibold sm:text-4xl">Sign in here.</h1>
             <p className="mt-4 max-w-md text-base leading-7 text-zinc-400">
-              Access frank insight into society, politics and theology.
+              Step into thoughtful writing that explores life, faith, culture, and the questions that matter.
             </p>
           </div>
-          <div className="mt-8 rounded-2xl border border-white/10 bg-blue-900/50 p-4 text-sm text-zinc-300">
+          <div className="mt-8 hidden rounded-2xl border border-white/10 bg-blue-900/50 p-4 text-sm text-zinc-300 sm:block">
             New here? Create an account to begin publishing.
           </div>
         </div>

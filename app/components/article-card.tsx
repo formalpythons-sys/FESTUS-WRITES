@@ -10,7 +10,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
   const date = formatArticleDate(article.created_at);
 
   return (
-    <article className="group rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+    <Link href={`/article/${article.slug}`} className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
       {article.cover_image ? (
         <img
           src={article.cover_image}
@@ -24,9 +24,9 @@ export function ArticleCard({ article }: ArticleCardProps) {
       <h3 className="mt-3 text-xl font-semibold text-zinc-950">{article.title}</h3>
       <p className="mt-3 text-sm leading-7 text-zinc-600">{article.excerpt}</p>
       <div className="mt-6 text-sm text-zinc-500">{date}</div>
-      <Link href={`/article/${article.slug}`} className="mt-6 inline-flex text-sm font-semibold text-zinc-950 transition group-hover:translate-x-1">
+      <span className="mt-6 inline-flex text-sm font-semibold text-zinc-950 transition group-hover:translate-x-1">
         Read article
-      </Link>
-    </article>
+      </span>
+    </Link>
   );
 }

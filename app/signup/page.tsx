@@ -123,7 +123,7 @@ export default function SignupPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-400">Join the team</p>
             <h1 className="mt-4 text-3xl font-semibold sm:text-4xl">Create your account to publish.</h1>
             <p className="mt-4 max-w-md text-base leading-7 text-zinc-400">
-              Start shaping the editorial voice of Festus Writes with a clean, secure publishing setup.
+              It is for readers who want a deeper connection to thoughtful stories, honest reflection, and meaningful ideas.
             </p>
           </div>
           <div className="mt-8 rounded-2xl border border-white/10 bg-blue-900/50 p-4 text-sm text-zinc-300">
